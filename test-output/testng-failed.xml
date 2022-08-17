@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ArchanaSutarAutomationProject(failed)">
+    <classes>
+      <class name="dataprovider.ReportsExtentClassExample">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testcaseD"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- dataprovider.ReportsExtentClassExample -->
+    </classes>
+  </test> <!-- ArchanaSutarAutomationProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

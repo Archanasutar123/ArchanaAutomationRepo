@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-09T16:14:07 IST" name="Default Suite" finished-at="2022-08-09T16:14:08 IST" duration-ms="1565">
+    <groups>
+    </groups>
+    <test started-at="2022-08-09T16:14:07 IST" name="ArchanaSutarAutomationProject" finished-at="2022-08-09T16:14:08 IST" duration-ms="1565">
+      <class name="dataprovider.ReportsExtentClassExample">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:dataprovider.ReportsExtentClassExample@3023df74]" started-at="2022-08-09T16:14:07 IST" name="beforeTest" finished-at="2022-08-09T16:14:07 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testcaseA()[pri:0, instance:dataprovider.ReportsExtentClassExample@3023df74]" started-at="2022-08-09T16:14:07 IST" name="testcaseA" finished-at="2022-08-09T16:14:07 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseA -->
+        <test-method signature="testcaseB()[pri:0, instance:dataprovider.ReportsExtentClassExample@3023df74]" started-at="2022-08-09T16:14:07 IST" name="testcaseB" finished-at="2022-08-09T16:14:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseB -->
+        <test-method signature="testcaseC()[pri:0, instance:dataprovider.ReportsExtentClassExample@3023df74]" started-at="2022-08-09T16:14:07 IST" name="testcaseC" finished-at="2022-08-09T16:14:07 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseC -->
+        <test-method signature="testcaseD()[pri:0, instance:dataprovider.ReportsExtentClassExample@3023df74]" started-at="2022-08-09T16:14:07 IST" name="testcaseD" finished-at="2022-08-09T16:14:07 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at dataprovider.ReportsExtentClassExample.testcaseD(ReportsExtentClassExample.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseD -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:dataprovider.ReportsExtentClassExample@3023df74]" started-at="2022-08-09T16:14:07 IST" name="afterTest" finished-at="2022-08-09T16:14:08 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- dataprovider.ReportsExtentClassExample -->
+    </test> <!-- ArchanaSutarAutomationProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>
