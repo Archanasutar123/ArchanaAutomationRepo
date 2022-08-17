@@ -10,7 +10,7 @@ public class ArithmeticalExceptationExample {
     @Test(expectedExceptions = {ArithmeticException.class, IOException.class})
     public void testCase1() {
         System.out.println("test case 1");
-        System.out.println(20 / 2);
+        System.out.println(10 / 2);
         System.out.println("Archana");
     }
     @Test
