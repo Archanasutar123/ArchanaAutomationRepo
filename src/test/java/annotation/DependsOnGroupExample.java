@@ -7,7 +7,7 @@ public class DependsOnGroupExample {
     @Test(groups = "vote")
     public void testcaseA() {
         System.out.println("test case 1");
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
     @Test(dependsOnGroups = "vote")
     public void testcaseB() {
